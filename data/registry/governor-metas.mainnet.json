@@ -276,5 +276,77 @@
       }
     },
     "slug": "vault"
+  },
+  {
+    "address": "5F9MwCoWiLEqmZgstp8o5iobCT7JZZNKm62raghS9CEU",
+    "addresses": {
+      "locker": {
+        "address": "3UhGsximz6vjUCakKYWHGeZfRhyeUDVbw2jEnoqXrBDr",
+        "label": "Locker"
+      }
+    },
+    "description": "Lock VLP from The Vault's unstake pool. Locker only, no governance.",
+    "govToken": {
+      "address": "EUWoTx5vQQrxaDFdeK2PLUVbnmRWjw4x6sBbmcxBaHjF",
+      "chainId": 101,
+      "decimals": 9,
+      "logoURI": "https://node1.irys.xyz/J7SJpgXrG5RFtbjW13lMHovizF8Lf9rZJ8rhjctWhkM",
+      "name": "Vault Unstake LP",
+      "symbol": "VLP"
+    },
+    "governance": {
+      "address": "5F9MwCoWiLEqmZgstp8o5iobCT7JZZNKm62raghS9CEU",
+      "description": "Lock VLP from The Vault's unstake pool. Locker only, no governance.",
+      "iconURL": "https://node1.irys.xyz/J7SJpgXrG5RFtbjW13lMHovizF8Lf9rZJ8rhjctWhkM",
+      "name": "Vault Unstake Pool",
+      "network": "mainnet-beta",
+      "parameters": {
+        "locker": {
+          "locker": "",
+          "maxStakeDuration": 126144000,
+          "maxStakeVoteMultiplier": 10,
+          "minStakeDuration": 0,
+          "proposalActivationMinVotes": "0",
+          "whitelistEnabled": false
+        }
+      },
+      "slug": "vlp",
+      "token": {
+        "address": "EUWoTx5vQQrxaDFdeK2PLUVbnmRWjw4x6sBbmcxBaHjF",
+        "chainId": 101,
+        "decimals": 9,
+        "logoURI": "https://node1.irys.xyz/J7SJpgXrG5RFtbjW13lMHovizF8Lf9rZJ8rhjctWhkM",
+        "name": "Vault Unstake LP",
+        "symbol": "VLP"
+      }
+    },
+    "iconURL": "https://node1.irys.xyz/J7SJpgXrG5RFtbjW13lMHovizF8Lf9rZJ8rhjctWhkM",
+    "links": {
+      "app": {
+        "label": "App",
+        "url": "https://thevault.finance/unstake-pool"
+      },
+      "discord": {
+        "label": "Discord",
+        "url": "https://discord.gg/aQC53CGgQY"
+      },
+      "docs": {
+        "label": "Docs",
+        "url": "https://docs.thevault.finance"
+      },
+      "twitter": {
+        "label": "Twitter",
+        "url": "https://twitter.com/thevaultfinance"
+      },
+      "website": {
+        "label": "Website",
+        "url": "https://thevault.finance"
+      }
+    },
+    "name": "Vault Unstake Pool",
+    "proposals": {
+      "notice": "This is a locker only. VLP holders can lock VLP here, but there is no active governance and proposals will not be executed.\n"
+    },
+    "slug": "vlp"
   }
 ]
